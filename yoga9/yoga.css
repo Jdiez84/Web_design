@@ -1,0 +1,200 @@
+#wrapper{
+  background-color: #F5F5F5;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1200PX;
+  max-width: 1480PX:
+
+}
+
+body{
+  background-color: #3F2860;
+  color: #3f2860;
+  font-family: Verdana, Arial, sans-serif;
+
+}
+header{
+  background-color: #9bc1c2;
+  background-image:url(\C:\Users\17278\Desktop\web design\yoga4\lilyheader.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 150px;
+
+
+}
+
+h1{
+padding-top: 50px;
+padding-left: 2em;
+
+
+
+}
+
+nav{
+  font-weight: bold;
+  padding: 1em;
+  float: left;
+  width: 160px;
+}
+
+nav a{
+  text-decoration: decoration;
+  text-align: center;
+  display: block;
+  border-style: outset;
+  border-width: 3px;
+  border-color: #cccccc;
+  font-weight: bold;
+  padding: 1em;
+  margin-bottom: 1em;
+
+
+}
+nav a:link{
+    color: #3F2860;
+  }
+nav a:visited{
+    color: #497777;
+}
+nav a:hover{
+  color:#A26100
+  border: 3px inset #333333;
+}
+
+nav ul{
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.Studio{
+  font-style: italic;
+}
+
+footer{
+  background-color: #9bc1c2;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+  padding:1em;
+}
+
+main{
+  padding-right: 2em;
+  padding-left: 2em;
+  display: block;
+  margin-left: 170px;
+  padding-top: 1em;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.floatleft{
+  float:left;
+  margin-right: 4em;
+}
+
+.clear{
+  clear: both;
+
+}
+
+header, nav, main,footer {
+  display: block;
+}
+
+#mobile{
+  display: none;
+}
+
+#desktop{
+  display: inline;
+}
+
+@media only screen and (max-width:1024px){
+  body {margin:0;padding: 0;}
+  #wrapper {width:100;min-width: 0;margin:0;width: auto;}
+   h1{padding:1em;}
+   nav{float: none;width: auto; padding-left: 2em;}
+   nav a {padding: .2em; margin-left: .3em; float: left; width:23%;}
+   main{ padding-bottom: 2.5em; padding-top: 2.5em; padding-left: 1em; padding-right:1em; margin:0; font-size: 90%; clear:both;}
+   #hero img {width: 100%; height: auto;}
+   h2, h3, p, dl{padding-left: 2em; padding-right: 2em;}
+   main ul{margin-left: 2em;}
+   .clear{padding-left: 2em;}
+   .floatleft{margin-left: 2em; margin-bottom: 1em;}
+
+
+}
+
+@media only all and (max-width: 768px){
+  h1{ font-size: 2em; padding-top: .25em; padding-left: 1.5em; width: 85%; text-align: center;}
+  nav a {padding: .5em; width:45%; float: left; min-width: 6em; margin-left: .5em;}
+  main{padding-top: 0;}
+  .floatleft{ float:none; display:none;}
+  #hero{display: none;}
+  footer{padding:.5em; margin 0;}
+  #mobile{ display: inline;}
+  #desktop{display:none;}
+
+}
+
+table{
+  width: 60%;
+  border: 1px solid purple;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+
+
+
+
+}
+
+td,th{
+  padding: 5px;
+  border: 1px solid;
+  border-color: #3F2860
+}
+
+tr:nth-of-type(even) {background-color: #9bc1c2;}
+
+caption{
+  margin: 1em;
+  font-weight: bold;
+  font-size: 120%;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mov{
+  text-align: center;
+}
+
+label{
+  float: left;
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  width: 10em;
+  padding-right: 1em;
+  margin-top: 10px;
+
+}
+
+input, textarea{
+  display: block;
+  margin-bottom: 2em;
+
+
+}
+#mySubmit{
+  margin-left: 24em;
+}
+form{
+  padding: 3em;
+}
